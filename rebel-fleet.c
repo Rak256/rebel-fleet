@@ -113,8 +113,7 @@ int main( int argc, char* argv[]) {
       }
     }
 
-    if(now - last_activity >= 60){
-      printf("no activity")
+    if(now - last_activity >= 5){
       break;
     }
   }
